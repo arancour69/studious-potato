@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## This takes the url of a youtube playlist (100 videos or less) and inserts the video urls into a .m3u playlist. ##
+
 url=$1
 tmpfile=$(mktemp ~/.tmp/youtubepl.tmp.$$.XXXX)
 
@@ -19,7 +21,7 @@ fi
 
 echo -e "Enter a name for the playist: "
 read m3uFileName
-cat $tmpfile > /home/cdag/Videos/$m3uFileName.m3u
+cat $tmpfile > ~/Videos/$m3uFileName.m3u
 echo -e "Playlist $m3uFileName created..."
 
 rm -f $tmpfile
