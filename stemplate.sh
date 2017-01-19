@@ -14,7 +14,7 @@ case "$c1" in
 		 read bsfname &&
 		 touch ~/scripts/$bsfname.sh &&
 		 echo -e "#!/bin/bash\n\n" > ~/scripts/$bsfname.sh &&
-		 echo "Bash script template created in ~/scripts" ;;
+		 echo "Bash script template created in ~/scripts/bash" ;;
 
 	"l"|"L") echo "Enter name for lua script:" &&
 		 read lsfname &&
@@ -26,7 +26,7 @@ case "$c1" in
 		   read pysfname &&
 		   touch ~/scripts/py/$pysfname.py &&
 		   echo -e "#!/usr/bin/env python\n\n" > ~/scripts/py/$pysfname.py &&
-		   echo "Python script template created in ~/scripts/py" ;;
+		   echo "Python script template created in ~/scripts/python" ;;
 
 	"pe"|"PE") echo "Enter name for perl script:" &&
 		   read pesfname &&
