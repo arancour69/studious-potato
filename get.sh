@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## Script that grabs pictures from imgur albums ##
+
 url=$1
 
 if [[ -z $url ]]; then
