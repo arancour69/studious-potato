@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## This is pretty self-explanitory, script is used to create a template for other scripts. ##
+## Prompts user for type of script and the name, creates the file and inserts the appropriate ##
+## hash-bang for said script type. ##
+
 printf "\n"
 printf "Script Template Creator\n"
 printf "For bash/lua/python/perl scripts\n"
