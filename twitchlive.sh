@@ -1,6 +1,7 @@
 #!/bin/bash
 
-## View twitch livestreams with a non-browser video player (smplayer, mpv, etc) ##
+## View twitch livestreams with mpv video player ##
+## Requires use of oauth token for twitch account (google it), and the livestreamer package/python script ##
 
 twitchtoken=##insert oauth token here##
 cname=$1
