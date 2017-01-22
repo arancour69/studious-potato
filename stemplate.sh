@@ -14,7 +14,7 @@ case "$c1" in
 		 read bsfname &&
 		 touch ~/scripts/$bsfname.sh &&
 		 echo -e "#!/bin/bash\n\n" > ~/scripts/$bsfname.sh &&
-		 echo "Bash script template created in ~/scripts/bash" ;;
+		 echo "Bash script template created in ~/scripts" ;;
 
 	"l"|"L") echo "Enter name for lua script:" &&
 		 read lsfname &&
