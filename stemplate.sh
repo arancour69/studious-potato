@@ -34,7 +34,8 @@ case "$c1" in
 		   echo -e "#!/usr/bin/env perl\n\n" > ~/scripts/perl/$pesfname.pl &&
 		   echo "Perl script template created in ~/scripts/perl" ;;
 
-	*)	echo "Invalid choice, exiting..." ;;
+	*)	echo "Invalid choice, exiting..." &&
+		exit 1 ;;
 
 esac
 exit 0
