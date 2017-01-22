@@ -6,7 +6,7 @@
 twitchtoken=##insert oauth token here##
 cname=$1
 
-if [[ -z $url ]]; then
+if [[ -z $cname ]]; then
     echo -e "Twitch Livestream Viewer\nUsage: $0 <streamer channel name>"
     exit 1
 fi
